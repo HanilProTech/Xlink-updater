@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<dpInst>
+
+    <language code="0x0411">
+        <dpinstTitle>CANlink_FD Interface ドライバのインストール ウィザード</dpinstTitle>
+
+        <welcomeTitle>CANlink_FD Interface ドライバのインストール ウィザードへようこそ！</welcomeTitle>
+        <welcomeIntro>このウィザードでは、CANlink_FD Interface を動作させるために必要なソフトウェア ドライバをインストールします。</welcomeIntro>
+
+        <installHeaderTitle>ドライバをインストールしています...</installHeaderTitle>
+
+        <finishTitle>CANlink_FD Interface ドライバのインストール ウィザードの完了</finishTitle>
+        <finishText>CANlink_FD Interface ドライバは、正しくインストールされました。</finishText>
+    </language>
+
+    <language code="0x0412">
+        <dpinstTitle>CANlink_FD Interface 드라이버 설치 마법사</dpinstTitle>
+
+        <welcomeTitle>CANlink_FD Interface 드라이버 설치 마법사 시작!</welcomeTitle>
+        <welcomeIntro>이 마법사는 CANlink_FD Interface를 동작시키기 위해 필요한 소프트웨어 드라이버를 설치합니다.</welcomeIntro>
+
+        <installHeaderTitle>드라이버를 설치하고 있습니다...</installHeaderTitle>
+
+        <finishTitle>CANlink_FD Interface 드라이버 설치 마법사 완료</finishTitle>
+        <finishText>CANlink_FD Interface 드라이버가 제대로 설치되었습니다.</finishText>
+    </language>
+
+    <language code="0x0409">
+        <dpinstTitle>CANlink_FD Interface Driver Installation Wizard</dpinstTitle>
+
+        <welcomeTitle>Welcome to the CANlink_FD Interface Driver Installation Wizard!</welcomeTitle>
+        <welcomeIntro>This wizard helps you install the software drivers that CANlink_FD Interface need in order to work.</welcomeIntro>
+
+        <installHeaderTitle>The drivers are now installing...</installHeaderTitle>
+
+        <finishTitle>Completing the CANlink_FD Interface Driver Installation Wizard</finishTitle>
+        <finishText>The CANlink_FD Interface drivers were successfully installed.</finishText>
+    </language>
+    <enableNotListedLanguages/>
+    <suppressAddRemovePrograms/>
+    <forceIfDriverIsNotBetter/>
+
+</dpInst>
