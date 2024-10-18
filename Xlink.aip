@@ -44,7 +44,6 @@
   <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
     <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
     <ROW Directory="CANlinkFD_Interface_Driver_Dir" Directory_Parent="NewFolder_Dir" DefaultDir="CANLIN~1|CANlink FD_Interface_Driver"/>
-    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
     <ROW Directory="NewFolder_Dir" Directory_Parent="APPDIR" DefaultDir="Utils"/>
     <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
     <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
@@ -67,7 +66,6 @@
     <ROW Component="C4FE6FD5B7C4D07B3A313E754A9A6A8" ComponentId="{DDFB78DD-7E3D-45D3-A513-EF8E725CAE0B}" Directory_="APPDIR" Attributes="4" KeyPath="C4FE6FD5B7C4D07B3A313E754A9A6A8" Options="2"/>
     <ROW Component="CANLink_Con.dll" ComponentId="{8E6984C6-0401-48AC-8513-C6FFB73E9BA2}" Directory_="bin_Dir" Attributes="0" KeyPath="CANLink_Con.dll"/>
     <ROW Component="CANLink_Data.dll" ComponentId="{7B5A46D9-06AC-4774-A7B2-1E505883EB8A}" Directory_="bin_Dir" Attributes="0" KeyPath="CANLink_Data.dll"/>
-    <ROW Component="CANLink_Novo.exe" ComponentId="{D85C87EE-9876-4B36-91A8-AA7C6BA7C4F6}" Directory_="bin_Dir" Attributes="0" KeyPath="CANLink_Novo.exe"/>
     <ROW Component="CANLink_Novo.exe.config" ComponentId="{D8D51263-C28C-44B1-8DD7-E435ABCEB46A}" Directory_="bin_Dir" Attributes="0" KeyPath="CANLink_Novo.exe.config" Type="0"/>
     <ROW Component="ConfigModule.dll" ComponentId="{5AACEA4E-8928-4455-BD57-6B903D851E97}" Directory_="bin_Dir" Attributes="0" KeyPath="ConfigModule.dll"/>
     <ROW Component="DevExpress.BonusSkins.v24.1.dll" ComponentId="{BFC71398-E074-4D63-86B5-AB48F30B0776}" Directory_="bin_Dir" Attributes="0" KeyPath="DevExpress.BonusSkins.v24.1.dll"/>
@@ -123,6 +121,7 @@
     <ROW Component="WdfCoInstaller01009.dll" ComponentId="{7AA38B4C-8ADB-4D29-B1E7-A066BB65B1CF}" Directory_="amd64_Dir" Attributes="256" KeyPath="WdfCoInstaller01009.dll"/>
     <ROW Component="WdfCoInstaller01009.dll_1" ComponentId="{9DF39CFE-C4AC-496F-B843-B0EC17C9B202}" Directory_="ia64_Dir" Attributes="256" KeyPath="WdfCoInstaller01009.dll_1"/>
     <ROW Component="WdfCoInstaller01009.dll_2" ComponentId="{A55BAF57-89AD-4F0B-8436-4A19AAB0E7CD}" Directory_="x86_Dir" Attributes="0" KeyPath="WdfCoInstaller01009.dll_2"/>
+    <ROW Component="Xlink.exe" ComponentId="{29840A6F-AE75-460C-8DFE-33D825487E7B}" Directory_="bin_Dir" Attributes="0" KeyPath="Xlink.exe"/>
     <ROW Component="canlink_fd_interface.cat" ComponentId="{23AE636A-0DC2-42EE-9F62-08A215CAB156}" Directory_="CANlinkFD_Interface_Driver_Dir" Attributes="0" KeyPath="canlink_fd_interface.cat" Type="0"/>
     <ROW Component="dpinst_amd64.exe" ComponentId="{665B507A-EB8D-4204-8D8E-F307B5783027}" Directory_="CANlinkFD_Interface_Driver_Dir" Attributes="256" KeyPath="dpinst_amd64.exe"/>
     <ROW Component="dpinst_ia64.exe" ComponentId="{C63992C6-DA70-4407-8933-BED85BD366E7}" Directory_="CANlinkFD_Interface_Driver_Dir" Attributes="256" KeyPath="dpinst_ia64.exe"/>
@@ -145,7 +144,6 @@
     <ROW File="Be.Windows.Forms.HexBox.dll" Component_="Be.Windows.Forms.HexBox.dll" FileName="BEWIND~1.DLL|Be.Windows.Forms.HexBox.dll" Attributes="0" SourcePath="Install Sources\bin\Be.Windows.Forms.HexBox.dll" SelfReg="false"/>
     <ROW File="CANLink_Con.dll" Component_="CANLink_Con.dll" FileName="CANLIN~1.DLL|CANLink_Con.dll" Attributes="0" SourcePath="Install Sources\bin\CANLink_Con.dll" SelfReg="false"/>
     <ROW File="CANLink_Data.dll" Component_="CANLink_Data.dll" FileName="CANLIN~2.DLL|CANLink_Data.dll" Attributes="0" SourcePath="Install Sources\bin\CANLink_Data.dll" SelfReg="false"/>
-    <ROW File="CANLink_Novo.exe" Component_="CANLink_Novo.exe" FileName="CANLIN~1.EXE|CANLink_Novo.exe" Attributes="0" SourcePath="Install Sources\bin\CANLink_Novo.exe" SelfReg="false" DigSign="true"/>
     <ROW File="CANLink_Novo.exe.config" Component_="CANLink_Novo.exe.config" FileName="CANLIN~1.CON|CANLink_Novo.exe.config" Attributes="0" SourcePath="Install Sources\bin\CANLink_Novo.exe.config" SelfReg="false"/>
     <ROW File="ConfigModule.dll" Component_="ConfigModule.dll" FileName="CONFIG~1.DLL|ConfigModule.dll" Attributes="0" SourcePath="Install Sources\bin\ConfigModule.dll" SelfReg="false"/>
     <ROW File="ConfigModule.dll.config" Component_="CANLink_Novo.exe.config" FileName="CONFIG~1.CON|ConfigModule.dll.config" Attributes="0" SourcePath="Install Sources\bin\ConfigModule.dll.config" SelfReg="false"/>
@@ -216,6 +214,8 @@
     <ROW File="winusbcoinstaller2.dll_1" Component_="winusbcoinstaller2.dll_1" FileName="WINUSB~1.DLL|winusbcoinstaller2.dll" Attributes="0" SourcePath="Install Sources\Utils\CANlink FD_Interface_Driver\ia64\winusbcoinstaller2.dll" SelfReg="false"/>
     <ROW File="WdfCoInstaller01009.dll_2" Component_="WdfCoInstaller01009.dll_2" FileName="WDFCOI~1.DLL|WdfCoInstaller01009.dll" Attributes="0" SourcePath="Install Sources\Utils\CANlink FD_Interface_Driver\x86\WdfCoInstaller01009.dll" SelfReg="false"/>
     <ROW File="winusbcoinstaller2.dll_2" Component_="winusbcoinstaller2.dll_2" FileName="WINUSB~1.DLL|winusbcoinstaller2.dll" Attributes="0" SourcePath="Install Sources\Utils\CANlink FD_Interface_Driver\x86\winusbcoinstaller2.dll" SelfReg="false"/>
+    <ROW File="Xlink.exe" Component_="Xlink.exe" FileName="Xlink.exe" Attributes="0" SourcePath="Install Sources\bin\Xlink.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="Xlink.exe.config" Component_="CANLink_Novo.exe.config" FileName="XLINKE~1.CON|Xlink.exe.config" Attributes="0" SourcePath="Install Sources\bin\Xlink.exe.config" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -280,7 +280,6 @@
     <ROW Component_="Be.Windows.Forms.HexBox.dll" Feature_="MainFeature" Attributes="0"/>
     <ROW Component_="CANLink_Con.dll" Feature_="MainFeature" File_Application="CANLink_Con.dll" Attributes="0"/>
     <ROW Component_="CANLink_Data.dll" Feature_="MainFeature" File_Application="CANLink_Data.dll" Attributes="0"/>
-    <ROW Component_="CANLink_Novo.exe" Feature_="MainFeature" File_Application="CANLink_Novo.exe" Attributes="0"/>
     <ROW Component_="ConfigModule.dll" Feature_="MainFeature" File_Application="ConfigModule.dll" Attributes="0"/>
     <ROW Component_="DevExpress.BonusSkins.v24.1.dll" Feature_="MainFeature" Attributes="0"/>
     <ROW Component_="DevExpress.CodeParser.v24.1.dll" Feature_="MainFeature" Attributes="0"/>
@@ -342,10 +341,6 @@
     <ROW Component_="CANLink_Data.dll" Name="Culture" Value="neutral" Sync="false"/>
     <ROW Component_="CANLink_Data.dll" Name="Version" Value="1.0.0.1" Sync="true"/>
     <ROW Component_="CANLink_Data.dll" Name="ProcessorArchitecture" Value="MSIL" Sync="false"/>
-    <ROW Component_="CANLink_Novo.exe" Name="Name" Value="CANLink_Novo" Sync="false"/>
-    <ROW Component_="CANLink_Novo.exe" Name="Culture" Value="neutral" Sync="false"/>
-    <ROW Component_="CANLink_Novo.exe" Name="Version" Value="0.0.1.1" Sync="true"/>
-    <ROW Component_="CANLink_Novo.exe" Name="ProcessorArchitecture" Value="X86" Sync="false"/>
     <ROW Component_="ConfigModule.dll" Name="Name" Value="ConfigModule" Sync="false"/>
     <ROW Component_="ConfigModule.dll" Name="Culture" Value="neutral" Sync="false"/>
     <ROW Component_="ConfigModule.dll" Name="Version" Value="0.0.0.0" Sync="true"/>
@@ -739,7 +734,6 @@
     <ROW Feature_="MainFeature" Component_="Be.Windows.Forms.HexBox.dll"/>
     <ROW Feature_="MainFeature" Component_="CANLink_Con.dll"/>
     <ROW Feature_="MainFeature" Component_="CANLink_Data.dll"/>
-    <ROW Feature_="MainFeature" Component_="CANLink_Novo.exe"/>
     <ROW Feature_="MainFeature" Component_="CANLink_Novo.exe.config"/>
     <ROW Feature_="MainFeature" Component_="ConfigModule.dll"/>
     <ROW Feature_="MainFeature" Component_="DevExpress.Data.v24.1.dll"/>
@@ -810,6 +804,7 @@
     <ROW Feature_="MainFeature" Component_="WdfCoInstaller01009.dll_2"/>
     <ROW Feature_="MainFeature" Component_="winusbcoinstaller2.dll_2"/>
     <ROW Feature_="MainFeature" Component_="AI_DisableModify"/>
+    <ROW Feature_="MainFeature" Component_="Xlink.exe"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="SystemFoldermsiexec.exe" SourcePath="&lt;AI_RES&gt;uninstall.ico" Index="0"/>
@@ -825,7 +820,7 @@
     <ROW IniFile="DownloadsFolder" FileName="updater.ini" DirProperty="APPDIR" Section="General" Key="DownloadsFolder" Value="[CommonAppDataFolder][Manufacturer]\[ProductName]\updates\" Action="0" Component_="updater.exe"/>
     <ROW IniFile="Flags" FileName="updater.ini" DirProperty="APPDIR" Section="General" Key="Flags" Value="PerMachine|ShowConfigOptionsButton|GitHubUpdates" Action="0" Component_="updater.exe"/>
     <ROW IniFile="ID" FileName="updater.ini" DirProperty="APPDIR" Section="General" Key="ID" Value="[UpgradeCode]" Action="0" Component_="updater.exe"/>
-    <ROW IniFile="URL" FileName="updater.ini" DirProperty="APPDIR" Section="General" Key="URL" Value="http://api.github.com/repos/worean/xlink-updater/releases" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="URL" FileName="updater.ini" DirProperty="APPDIR" Section="General" Key="URL" Value="http://api.github.com/repos/HanilProTech/xlink-updater/releases" Action="0" Component_="updater.exe"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
     <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
@@ -933,8 +928,6 @@
     <ROW Registry="Windows" Root="-1" Key="Software\Microsoft\Windows" Name="\"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
-    <ROW Shortcut="CANLink_Novo" Directory_="SHORTCUTDIR" Name="CANLIN~1|CANLink_Novo" Component_="CANLink_Novo.exe" Target="[#CANLink_Novo.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="bin_Dir" CustomFlags="1"/>
-    <ROW Shortcut="CANLink_Novo1" Directory_="DesktopFolder" Name="CANLIN~2|CANLink_Novo" Component_="CANLink_Novo.exe" Target="[#CANLink_Novo.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="bin_Dir" CustomFlags="1"/>
     <ROW Shortcut="HWcfg" Directory_="SHORTCUTDIR" Name="HWcfg" Component_="HWcfg.exe" Target="[#HWcfg.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="bin_Dir"/>
     <ROW Shortcut="UninstallProductNameProductVersion" Directory_="SHORTCUTDIR" Name="UNINST~1|Uninstall" Component_="zCon1.dll" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" Hotkey="0" Icon_="SystemFoldermsiexec.exe" IconIndex="0" ShowCmd="1"/>
   </COMPONENT>
