@@ -12,6 +12,7 @@
     <ROW Property="AI_FrameBtnsColor" Value="metroblack" MultiBuildValue="DefaultBuild:metrolime" MsiKey="AI_FrameBtnsColor"/>
     <ROW Property="AI_FrameColor" Value="metroblack" MultiBuildValue="DefaultBuild:metrolime" MsiKey="AI_FrameColor"/>
     <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_INTERNET_CONNECTION"/>
+    <ROW Property="AI_PREREQ_REPAIR_ENABLED" MultiBuildValue="DefaultBuild:1"/>
     <ROW Property="AI_PRODUCTNAME_ARP" Value="Xlink"/>
     <ROW Property="AI_ThemeStyle" Value="default" MultiBuildValue="DefaultBuild:metrowhite" MsiKey="AI_ThemeStyle"/>
     <ROW Property="AI_UNINSTALLER" Value="msiexec.exe"/>
@@ -19,7 +20,7 @@
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
     <ROW Property="ARPNOMODIFY" MultiBuildValue="DefaultBuild:1"/>
     <ROW Property="ARPNOREPAIR" Value="1" MultiBuildValue="DefaultBuild:1"/>
-    <ROW Property="ARPPRODUCTICON" Value="main_logo_icon.exe" Type="8"/>
+    <ROW Property="ARPPRODUCTICON" Value="main_logo_icon_1.exe" Type="8"/>
     <ROW Property="ARPSYSTEMCOMPONENT" Value="1"/>
     <ROW Property="CTRLS" Value="2"/>
     <ROW Property="Manufacturer" Value="HanilProTech"/>
@@ -812,7 +813,7 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="SystemFoldermsiexec.exe" SourcePath="&lt;AI_RES&gt;uninstall.ico" Index="0"/>
-    <ROW Name="main_logo_icon.exe" SourcePath="..\CANLink_Novo\Resources\main_logo_icon.ico" Index="0"/>
+    <ROW Name="main_logo_icon_1.exe" SourcePath="main_logo_icon.ico" Index="0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIniFileComponent">
     <ROW IniFile="AppDir" FileName="updater.ini" DirProperty="APPDIR" Section="General" Key="AppDir" Value="[APPDIR]" Action="0" Component_="updater.exe"/>
